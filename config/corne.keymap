@@ -14,7 +14,7 @@
 
         default_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
+            // | TAB  |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
             // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | ESC  |
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
@@ -30,7 +30,7 @@
 
         lower_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
+            // | ESC  |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
@@ -46,7 +46,7 @@
 
         raise_layer {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
+            // | TAB  |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
@@ -61,6 +61,13 @@
         };
 
         adjust {
+            // -----------------------------------------------------------------------------------------
+            // |      |      |      |      |     |     |   | F5 | F9 | F10 | F11  | F12  |      |
+            // |      | VOL- | VOL+ | MUTE |     | SLP |   | JP |    |     | BRI+ | BRI- |      |
+            // |      |      |      |      |     |     |   |    |     |     |     |      |      |
+            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            
+            display-name = "Adjust";
             bindings = <
 &trans  &trans             &trans           &trans      &trans  &trans                 &kp F5             &kp F9  &kp F10  &kp F11               &kp F12               &trans
 &trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans  &kp LA(LG(C_EJECT))    &kp LC(LG(SPACE))  &trans  &trans   &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans
