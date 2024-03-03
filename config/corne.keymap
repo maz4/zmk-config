@@ -82,8 +82,8 @@
         compatible = "zmk,conditional-layers";
 
         Adjust {
-            if-layers = <4 4>;
-            then-layer = <4>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
     };
 };
