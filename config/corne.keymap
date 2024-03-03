@@ -62,10 +62,10 @@
 
         Adjust {
             bindings = <
-&trans  &trans             &trans           &trans      &trans  &trans                 &trans        &trans  &trans  &trans                &trans                &trans
-&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans  &kp LC(LS(C_EJECT))    &kp INT_KANA  &trans  &trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans
-&trans  &trans             &trans           &trans      &trans  &trans                 &trans        &trans  &trans  &trans                &trans                &trans
-                                            &trans      &trans  &trans                 &trans        &trans  &trans
+&trans  &trans             &trans           &trans      &trans  &trans                 &trans             &trans  &trans  &trans                &trans                &trans
+&trans  &kp C_VOLUME_DOWN  &kp C_VOLUME_UP  &kp C_MUTE  &trans  &kp LA(LG(C_EJECT))    &kp LC(LG(SPACE))  &trans  &trans  &kp C_BRIGHTNESS_INC  &kp C_BRIGHTNESS_DEC  &trans
+&trans  &trans             &trans           &trans      &trans  &trans                 &trans             &trans  &trans  &trans                &trans                &trans
+                                            &trans      &trans  &trans                 &trans             &trans  &trans
             >;
         };
     };
