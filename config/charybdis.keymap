@@ -10,7 +10,6 @@
     quick-tap-ms = <150>;
 };
 
-
 / {
     behaviors {
         pht: positional_hold_tap {
