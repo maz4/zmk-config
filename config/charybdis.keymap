@@ -10,7 +10,10 @@
     quick-tap-ms = <150>;
 };
 
-&pht: positional_hold_tap {
+
+/ {
+    behaviors {
+        pht: positional_hold_tap {
             compatible = "zmk,behavior-hold-tap";
             #binding-cells = <2>;
             flavor = "tap-preferred";
@@ -19,8 +22,8 @@
             require-prior-idle-ms = <125>;
             bindings = <&kp>, <&kp>;
         };
+    };
 
-/ {
     combos { compatible = "zmk,combos"; };
 
     keymap {
