@@ -2,8 +2,8 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: DoctorWangWang
-      url-base: https://github.com/DoctorWangWang
+    - name: maz4
+      url-base: https://github.com/maz4
 
   projects:
     - name: zmk
