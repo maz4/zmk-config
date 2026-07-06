@@ -28,12 +28,12 @@ layers:
   - Ctrl
   - A
   - S
-  - '&pht LALT D'
-  - '&pht LEFT_GUI F'
+  - {t: D, h: Alt}
+  - {t: F, h: Cmd}
   - G
   - H
-  - '&pht RIGHT_GUI J'
-  - '&pht RALT K'
+  - {t: J, h: Cmd}
+  - {t: K, h: Alt}
   - L
   - ;
   - ''''
