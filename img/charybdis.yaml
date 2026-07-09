@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - '{'
+  - '['
   - Ctrl
   - A
   - S
@@ -81,7 +81,7 @@ layers:
   - ''
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
-  - '}'
+  - ']'
   - Ctrl
   - VOLUME DOWN
   - VOLUME UP
