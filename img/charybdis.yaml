@@ -70,22 +70,22 @@ layers:
   - F10
   - F11
   - F12
-  - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Tab
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - BRIGHTNESS DEC
   - BRIGHTNESS INC
   - ']'
   - Ctrl
-  - VOLUME DOWN
-  - VOLUME UP
-  - MUTE
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - ←
@@ -100,12 +100,12 @@ layers:
   - ''
   - ''
   - ''
+  - ''
   - '-'
   - '='
-  - '{'
-  - '}'
   - \
   - '`'
+  - ''
   - Alt
   - Space
   - {type: held}
