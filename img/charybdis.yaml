@@ -51,8 +51,8 @@ layers:
   - Shift
   - Alt
   - Space
-  - raise
   - lower
+  - raise
   - Enter
   - '&mkp MB1'
   - '&mkp MB2'
@@ -79,8 +79,8 @@ layers:
   - ''
   - ''
   - ''
-  - BRIGHTNESS DEC
-  - BRIGHTNESS INC
+  - ''
+  - ''
   - ']'
   - Ctrl
   - ''
@@ -101,15 +101,15 @@ layers:
   - ''
   - ''
   - ''
-  - '-'
-  - '='
-  - \
-  - '`'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - Alt
   - Space
-  - {type: held}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - '&mkp MB1'
   - '&mkp MB2'
@@ -145,28 +145,28 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ARROW
-  - DOWN ARROW
-  - UP ARROW
-  - RIGHT ARROW
+  - '-'
+  - '='
+  - '['
+  - ']'
+  - \
+  - '`'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - _
+  - +
+  - '{'
+  - '}'
+  - '|'
+  - '~'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
